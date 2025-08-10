@@ -21,7 +21,7 @@ def write_to_file(data: Iterable[str], filename: str):
 
 def _write_html_header(writer: TextIO) -> None:
     writer.write("<html><body><table border='1'>\n")
-    writer.write("<tr><th>STT</th><th>Bitstring</th><th>Value</th></tr>\n")
+    writer.write("<tr><th>No.</th><th>Bitstring</th><th>Value</th></tr>\n")
 
 
 def _write_html_row(writer: TextIO, index: int, bitstring: str) -> None:
